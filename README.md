@@ -10,14 +10,17 @@ Suitable for finding exact signature to reduce gas usage a bit.
 sudo apt install golang -y
 # or
 sudo snap install go
-# or 
-# enter into golang docker container
+# or visit https://go.dev/doc/install
+# or enter into golang docker container
 
 # clone repository
 git clone https://github.com/0fuz/SignatureProfanity
 
 # install dependencies 
 go mod tidy
+
+# compile
+go build
 ```
 
 Run
